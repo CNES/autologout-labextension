@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "autologout-labextension",
+  "version": "0.0.1",
+  "description": "Redirects to /hub/logout when inactive",
+  "author": "CS-Group",
+  "main": "lib/plugin.js",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension"
+  ],
+  "jupyterlab": {
+    "extension": true
+  },
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {}
+}
