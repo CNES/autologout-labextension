@@ -23,3 +23,26 @@ For a development install (requires npm version 4 or later), do the following in
 npm install
 jupyter labextension link .
 ```
+
+## Configuration
+
+A configuration file is available to set the timer and the ignored url:
+
+```json
+{
+  "logout_time": 1800,
+  "ignored_url": "ignored.url.com"
+}
+```
+
+"logout_time" is the timer to logout automatically in seconds.
+
+"ignored_url" is the url which deactivate the timer.
+
+After changes, jupyterlabs need to be rebuild with this command (in the environment):
+
+```bash
+jupyter lab build
+```
+
+and finally refresh jupyter on the web browser to be updated.
