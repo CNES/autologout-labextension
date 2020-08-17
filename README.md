@@ -46,3 +46,6 @@ jupyter lab build
 ```
 
 and finally refresh jupyter on the web browser to be updated.
+
+*Copyright 2020 CS GROUP - France
+All rights reserved*
