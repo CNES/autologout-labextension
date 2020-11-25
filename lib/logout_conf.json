@@ -1,4 +1,4 @@
 {
-  "logout_time": 900,
+  "logout_time": 3600,
   "ignored_url": "jupyterhub.sis.cnes.fr" 
 }
