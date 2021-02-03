@@ -39,13 +39,13 @@ A configuration file is available to set the timer and the ignored url:
 
 "ignored_url" is the url which deactivate the timer.
 
-After changes, jupyterlabs need to be rebuild with this command (in the environment):
+After changes, jupyterlabs need to be rebuilt with this command (in the environment):
 
 ```bash
-jupyter lab build
+jupyter lab build --dev-build=False
 ```
 
-and finally refresh jupyter on the web browser to be updated.
+and finally refresh jupyter on the web browser to take the new values into account.
 
 *Copyright 2020 CS GROUP - France
 All rights reserved*
